@@ -32,6 +32,7 @@ void PrintArray(T arr[], ContainerRange n){
     cout << endl;
 }
 
+// Videos: https://www.youtube.com/watch?v=ZZuD6iUe3Pc
 // Bubble 
 template <typename T, typename Func> 
 void BurbujaClasico(T arr[], ContainerRange n, Func func) {
