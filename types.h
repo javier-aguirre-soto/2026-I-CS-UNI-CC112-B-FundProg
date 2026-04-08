@@ -22,5 +22,5 @@ using UUTT1 = unsigned long long;
     using UT1  = SUT1;
     using UTT1 = SUTT1;
 #endif
-
+typedef bool (*CompFunc)(T1, T1);
 #endif // __TYPES_H__
