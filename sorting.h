@@ -68,6 +68,7 @@ void BurbujaRecursivo(T arr[], ContainerRange n, Func func) {
             intercambiar(arr[0], arr[j]);
     BurbujaRecursivo(arr+1, n-1, func);
 }
+
 void DemoBurbuja();
 
 // ContainerRange  particionar(ContainerElemType1* arr, ContainerRange first, ContainerRange last, CompFunc pComp);
